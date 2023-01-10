@@ -1,0 +1,27 @@
+{
+    "name": "jeybin/packagename",
+    "description": "Package decription",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jeybin\\Packagename\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jeybin",
+            "email": "jeybin@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jeybin\\Packagename\\Providers\\PackageProviders"
+            ],
+            "aliases": {
+                "Packagename": "Jeybin\\Packagename\\Facades\\PackageFacades"
+            }
+        }
+    }
+}
